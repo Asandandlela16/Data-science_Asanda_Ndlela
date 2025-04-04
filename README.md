@@ -1,4 +1,4 @@
 # Data-science_Asanda_Ndlela
 Hi , My name is Asanda Ndlela. I am a UKZN student will a huge drive and passion for working with data. In this repository I will be posting all the data I have worked with , cleaned , transformed and visualized to gain some insights.  Email address : asandandlela2004@gmail.com and my cellphone numbers : +27747805974/ +27643123670
 Above are the video games sales data that I use pandas to remove duplicates , fill empty spaces with null and further took the data to Excel for addition cleaning , made it look like a real world dataset . I will be sharing the insisghts of the data  soon .
-I have started working on a new project of NBA player performances where I will be jusing their past and current perfromances to predict how likely are they to berorm even better from now on and maybe even win great accollades
+I have started working on a new project of NBA player performances where I will be using their past and current perfromances to predict how likely are they to berorm even better from now on and maybe even win great accollades
