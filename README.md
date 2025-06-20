@@ -12,7 +12,7 @@ Filtering by Province , Type of payment method and Category.
 
 The bulkness of items being sold -used a slicer in Excel and profit-per province.
 
-Trying out Power BI features like drill-downs, slicers, and tables(Did not use DAX in theis one)
+Trying out Power BI features like drill-downs, slicers, and tables(Did not use DAX in this one)
 
 🧪 What I Learned: How to structure dashboards and highlight key metrics
 
