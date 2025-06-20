@@ -1,6 +1,6 @@
 SALES REPORT IN SOUTH AFRICA
 
-Hi I am Asanda Ndlela , an aspiring Data Scientist and this is one of my entry level projects I have been working on while finishing my final year.This repo contains a beginner-to-intermediate level project where I explore Sales report  data using both Power BI and Excel . The goal is to build dashboards that help visualize and track key sales patterns like discounts, popular product, and category performance.
+Hi I am Asanda Ndlela , an aspiring Data Scientist and this is one of my entry level projects I have been working on while finishing my final year.This repo contains a beginner-to-intermediate level project where I explore Sales report  data using both Power BI and Excel . The goal is to build dashboards that help visualize and track key sales patterns like discounts, popular products , and category performance.
 
 🧰 Tools Used Power BI Desktop (.pbix) – for building interactive dashboards and visuals.
 
