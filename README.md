@@ -1,21 +1,60 @@
-HEART ATTACK VISUALIZATION
 
-Tools used : Power BI(DAX , POWER QUERY) , MICROSOFT EXCEL(SLICER , PIVOT TABLES) , PYTHON(PANDAS)
 
-Python :  -Imported the data with pandas library , used the describe function to look at the details of the data , look at the mean of the heart rate , the oldest individual in the dataset who was 103 years old.
-          -Used the isnull().sum() function to check for missing values and used the fillna() function to replace them.
 
-          
-EXCEL     - Created 5 pivot tables to check for the likelihood of heart attack.Focued more on Troponin ( highly specific protein biomarker for heart muscle injury) and CK-MBA cardiac enzyme released during heart muscle damage)
-          -Looked at the averages of CK-MB by gender and using a slicer specific on being either positive or negative , I found that for individuals who tested positive for heart attack are female dominated(23.75) with a higher CK-MB averagecompared to males(23.05)
-           and those who tested negative were male dominated with a higher average (2.65) compared to female's (2.4).So this indicates that the individuals who are likely to be positve produce this enzyme rapidly.
-           -You can look at the visualizations by opening the excel file(xlsx).
-           
-      
-Power BI - Transformed the data using Power Query Editor , I had already used the CK-MB  and the Troponin columns so I decided to delete them and get other visualizations , I the conbverted the type from text to whole numbers.
-         - I then used DAX to create a new meaure called Total blood pressure where I added Systolic Blood Pressure (the pressure in arteries when the heart contracts) and Diastolic Blood Pressure (the pressure in arteries between heartbeats) , where I added the sum
-           of tese as it was a measure not a calculated column
-           -You can view the visualizations by opening the Power bi report in the respository
+# 🫀 Heart Attack Risk Analysis & Visualization
+
+A data-driven project aimed at analyzing patterns and biomarkers associated with heart attacks using multiple tools — Python, Excel, and Power BI. The goal was to identify significant indicators and create visualizations that aid medical understanding and decision-making.
+
+---
+
+## 📌 Tools & Technologies
+
+- **Python** – Data exploration & preprocessing (`pandas`)
+- **Excel** – Pivot tables, slicers, statistical comparison
+- **Power BI** – Data transformation, DAX measures, interactive dashboards
+
+---
+
+## 🔍 Python: Data Exploration & Cleaning
+
+- Imported the dataset using `pandas`
+- Explored summary statistics with `.describe()`, including:
+  - Mean heart rate
+  - Identification of the oldest individual (103 years old)
+- Checked for missing values using `.isnull().sum()` and filled them using `.fillna()` for clean analysis
+
+---
+
+📊 Excel: Statistical Pattern Analysis
+
+- Built 5 Pivot Tables focusing on key biomarkers:
+  - Troponin: A highly specific protein marker for heart muscle injury
+  - CK-MB: An enzyme released during cardiac damage
+- Utilized **Excel slicers** to filter by test results (positive/negative)
+
+🔬 Key Insight:
+| Test Result | Gender | CK-MB Average  |
+|-------------|--------|----------------|
+| Positive    | Female | 23.75          |
+| Positive    | Male   | 23.05          |
+| Negative    | Male   | 2.65           |
+| Negative    | Female | 2.40           |
+
+- Indicates that individuals who tested **positive** produce this enzyme at a significantly higher rate
+
+📎 _Excel workbook available in the project files_
+
+---
+
+## 📈 Power BI: Dynamic Visualization & DAX
+
+- Used **Power Query Editor** to transform data:
+  - Converted data types (e.g., text → whole numbers)
+  - Removed already explored columns (Troponin, CK-MB) to reduce redundancy
+- Created a custom **DAX Measure**:
+
+```DAX
+Total Blood Pressure = SUM('Table'[Systolic_BP]) + SUM('Table'[Diastolic_BP])
 
 
            
