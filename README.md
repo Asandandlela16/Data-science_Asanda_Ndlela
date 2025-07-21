@@ -80,5 +80,3 @@ Regular internal meetings to review racial performance distribution.
 
 Encourage fair assessment practices and diverse group work.
 
-📊 Dashboard Preview
-📍![Alt Text](C:\Users\Student\Pictures\Screenshots)
