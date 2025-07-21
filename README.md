@@ -1,83 +1,67 @@
-🎓 Student Performance Interactive Dashboard
+# 🎓 Student Performance Interactive Dashboard
 
-**Project Overview**
-This project explores the impact of various external factors on student academic performance using a publicly available dataset from Kaggle. The dataset includes key columns such as math mark, reading mark, and writing mark, along with socio-demographic features like gender, lunch type, parental education, and race/ethnicity.
+## 📌 Project Overview
 
-The goal was to:
+This project explores the impact of various external factors on student academic performance using a dataset from Kaggle. The dataset includes key academic metrics like math, reading, and writing marks, alongside external factors such as gender, lunch type, parental education, and race/ethnicity.
 
-Analyze overall performance and identify trends.
+The goal was to analyze performance trends and build an **interactive dashboard** using:
 
-Understand how different factors (like lunch, race, and parental education) influence scores.
+- **Excel** (for data cleaning and basic processing)
+- **Power BI** (for dashboard development)
+- **PowerPoint** (for executive summary)
 
-Build an interactive dashboard to visualize insights using Excel, Power BI, and PowerPoint for executive summaries.
+---
 
-🛠 Tools Used
-Microsoft Excel: Data cleaning, new column creation, and preliminary analysis.
+## 🧼 Data Preparation
 
-Power BI: Data modeling and interactive dashboard creation.
+- No duplicates were found.
+- Created two new columns:
+  - `Average Mark` = (Math + Reading + Writing) / 3
+  - `Outcome`: 
+    - **FAIL** if Average < 50  
+    - **PASS WITH DISTINCTION** if Average ≥ 75  
+    - **PASS** otherwise
 
-PowerPoint: Summary presentation of findings and recommendations.
+---
 
-🔍 Data Preparation
-Data Source: Kaggle (Student Performance Dataset)
+## 📊 Dashboard Preview
 
-Data Cleaning:
+![Dashboard Screenshot](images/dashboard.png)
 
-Checked for duplicates (none found)
+> Make sure your image is saved at `images/dashboard.png` inside your repo.
 
-Created new columns:
+---
 
-Average Mark: Mean of Math, Reading, and Writing marks
+## 🔍 Key Observations
 
-Outcome:
+1. Students with a **standard lunch break** performed better in Math.
+2. **Males outperformed females** in Math by 5.1%, though females dominate among top achievers.
+3. **Pass Rate**: 89.7%  
+   - 324 distinctions (59% female, 41% male)
+4. **Group E**: Best-performing race group with an average of 72.75%
+   - **Group C** showed strong teamwork and low failure rate (only 25 out of 319 failed)
 
-Fail if Avg < 50
+---
 
-Pass if Avg between 50 and 74
+## ✅ Recommendations
 
-Pass with Distinction if Avg ≥ 75
+1. **Lunch Strategy**: Lock classrooms during lunch and promote standardized lunch breaks.
+2. **Gender Equity Programs**:
+   - Support females facing social issues (GBV, etc.)
+   - Implement study groups with gender balance and peer support.
+3. **"We All Pass" Project**:
+   - Offer extra support classes to all students, not just those failing.
+   - Use **positive incentives**: rewards, UKZN trips, performance-based cash prizes.
+4. **Lecturer Workshops**:
+   - Keep track of group performance by race.
+   - Promote fair assessment and diverse group activities.
 
-📈 Key Observations
-Lunch Impact: Students with a standard lunch performed better in Math.
+---
 
-Gender Gap: Males scored 5.1% higher than females in Math (not necessarily top performers).
+## 🚀 Future Work
 
-Performance Rate:
+- Add machine learning models (e.g., classification or regression) to predict performance.
+- Extend dataset with attendance, participation, or socio-economic variables.
+- Compare with performance data across different schools or provinces.
 
-Pass rate: 89.7%
-
-Distinctions: 324 students (59% female, 41% male)
-
-Race-Based Trends:
-
-Group E: Highest performing group with an average of 72.75%
-
-Group C: Strong performance and teamwork; only 25 students failed out of 319
-
-✅ Recommendations
-Lunch Policy:
-
-Introduce more structured lunch categories.
-
-Lock classes during lunch to encourage healthier eating habits and focus, especially in Math.
-
-Gender-Based Support:
-
-Address potential issues like gender-based violence or discrimination.
-
-Implement school-based support programs and gender-balanced study groups.
-
-"We All Pass" Project:
-
-Extra classes for all students, not just those at risk.
-
-Focus on basic concepts to build foundational understanding.
-
-Introduce performance-based rewards: trips to universities like UKZN, cash prizes, certificates.
-
-Lecturer Workshops:
-
-Regular internal meetings to review racial performance distribution.
-
-Encourage fair assessment practices and diverse group work.
 
