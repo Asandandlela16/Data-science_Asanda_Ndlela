@@ -1,5 +1,6 @@
 🎓 Student Performance Interactive Dashboard
-📌 Project Overview
+
+**Project Overview**
 This project explores the impact of various external factors on student academic performance using a publicly available dataset from Kaggle. The dataset includes key columns such as math mark, reading mark, and writing mark, along with socio-demographic features like gender, lunch type, parental education, and race/ethnicity.
 
 The goal was to:
