@@ -22,16 +22,6 @@ The goal was to analyze performance trends and build an **interactive dashboard*
     - **PASS WITH DISTINCTION** if Average ≥ 75  
     - **PASS** otherwise
 
----
-
-## 📊 Dashboard Preview
-
-![Dashboard Screenshot](images/dashboard.png)
-
-> Make sure your image is saved at `images/dashboard.png` inside your repo.
-
----
-
 ## 🔍 Key Observations
 
 1. Students with a **standard lunch break** performed better in Math.
