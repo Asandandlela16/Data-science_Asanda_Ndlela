@@ -50,8 +50,6 @@ The goal was to analyze performance trends and build an **interactive dashboard*
 
 ## 🚀 Future Work
 
-- Add machine learning models (e.g., classification or regression) to predict performance.
-- Extend dataset with attendance, participation, or socio-economic variables.
-- Compare with performance data across different schools or provinces.
+Will be looking to add machine learning models (e.g., classification or regression) to predict performance.
 
 
