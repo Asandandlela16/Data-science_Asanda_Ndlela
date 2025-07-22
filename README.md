@@ -15,7 +15,7 @@ The bulkness of items being sold -used a slicer in Excel and profit-per province
 
 Trying out Power BI features like drill-downs, slicers, and tables(Did not use DAX in this one)
 
- What I Learned: How to structure dashboards and highlight key metrics , differenct types of graphs amd how to use each graph for what scenario
+ What I Learned: How to structure dashboards and highlight key metrics , differenct types of graphs and how to use each graph for what scenario
 
 Basic data modeling in Power BI
 
