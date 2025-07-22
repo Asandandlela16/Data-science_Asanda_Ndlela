@@ -21,6 +21,6 @@ Basic data modeling in Power BI
 
 How to clean and prepare data for reporting using Power query.
 
-Still a Work in Progress I’m still learning both Power BI and Excel, so this project is meant to show my progress and practice. Any feedback or suggestions are welcome, I understand the impoertance of DAX and the Excel LOOKUP function and I am in the process lof mastering them as I am still a beginner but I have learned how to create custom measures , calculated columns and working with dates and soon will do projects on them .
+Still a Work in Progress I’m still learning both Power BI (Advanced DAX) and Excel, so this project is meant to show my progress and practice. Any feedback or suggestions are welcome, I understand the importance of DAX and the Excel LOOKUP function and I am in the process lof mastering them as I am still a beginner but I have learned how to create custom measures , calculated columns and working with dates and soon will do projects on them . In this particular project I noticed some faults that Iam tring to fix like the showing of profit for cancelled and pending orders which rerquires me to dive deep into advanced DAX.
 
 To Run This Open the .pbix file with Power BI Desktop
