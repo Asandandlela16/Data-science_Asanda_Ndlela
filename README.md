@@ -1,77 +1,40 @@
 # 🔥 California Wildfire Visualizations
 
-## 📌 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Project Goals](#project-goals)
-3. [Data Sources](#data-sources)
-4. [Tools & Technologies](#tools--technologies)
-5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-6. [Visualizations](#visualizations)
-7. [Key Insights](#key-insights)
-8. [Challenges](#challenges)
-9. [How to Run](#how-to-run)
-10. [Folder Structure](#folder-structure)
-11. [Future Work](#future-work)
-12. [Author](#author)
+##  Project Overview
+This project explores wildfire data in California to understand the patterns, causes, and impacts of wildfires over time on the communities , economy as a whole. Through data visualization, I was aiming to uncover trends and relationships in wildfire activity and present these insights in a visually compelling way that can be helpful in overseeing future impact of such events.
 
----
-
-## 🧠 Project Overview
-This project explores historical wildfire data in California to understand the patterns, causes, and impacts of wildfires over time. Through data visualization, we aim to uncover trends and relationships in wildfire activity and present these insights in a visually compelling way.
-
----
 
 ## 🎯 Project Goals
 - Analyze trends in wildfire frequency and severity over time.
-- Identify geographic hotspots for wildfires.
-- Explore seasonal and annual patterns.
+- Identify geographic hotspots for these wildfires.
+- Explore the total damage on property.
 - Visualize the relationship between fire size, cause, and location.
 
 ---
 
-## 🗂️ Data Sources
-- [Kaggle: Wildfire Data in California](https://www.kaggle.com/)
-- [US Forest Service – Fire Occurrence Data](https://www.fs.usda.gov/)
-- Additional geospatial data for mapping (if applicable)
-
-**Note:** Some datasets were cleaned, merged, and transformed to create a consistent structure for analysis.
-
----
-
-## 🛠 Tools & Technologies
-- **Python:** pandas, matplotlib, seaborn, plotly, geopandas
+##  Tools & Technologies
+- **Python:** pandas, matplotlib, seaborn
 - **Jupyter Notebook**
-- **Power BI / Tableau** (optional, for dashboards)
+- **Power BI 
 - **Git & GitHub**
 - **VS Code**
-
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
-- Trends in number of wildfires per year
-- Distribution of wildfire sizes
-- Most common causes of fires (human vs. natural)
-- Monthly and seasonal patterns
-- Regional analysis by county or coordinates
-
+##  Exploratory Data Analysis (EDA)
+- Property damages
+- Fiancial loss per region
+- Most common causes of fires 
+- Loss distribution
+- injuries spread
+  
 ---
 
-## 📈 Visualizations
-- 📉 Line Chart: Wildfires per Year
-- 🔥 Bar Chart: Top 10 Fire Causes
-- 🌍 Heatmap: Fires by Region
-- 🗺️ Choropleth Map: Total Area Burned by County
-- 📅 Seasonal Trends: Wildfires by Month
-
-Visuals are available in the `visuals/` folder and in the Jupyter Notebooks.
-
----
-
-## 🔍 Key Insights
-- Wildfires peak between **July and September**, correlating with dry summer conditions.
-- **Human-caused** wildfires are the leading contributor to large-scale fire damage.
-- Certain counties in **Northern California** experience consistently higher fire incidents.
-- Over the years, the **average wildfire size** has increased.
+##  Key Insights
+- Human activities caused 38% of these wildifires , lightning being 31% and unknown factors being the other 31% , now this suggests that humans are generally not aware of the fire regulations which is really worrying as Carlifonia boasts a polulation of 39+ Million people;
+- Now , looking at the average financial loss by region/location Butte county was the most affected with an average loss of $3290 , while Sonoma County had the least average  financial loss with anma average of $1875. When it comes to the total financial loss per region Shanta County was the most affected($38k) followed by Butte County($36K) , which is definitely understandable considering that Butte County only had 1M+ properties damaged while Shanta had 2M+ properties damaged.
+- A total of 4000+ injuries were recorded and half of those injuries were caused by human activites , worrying!! Now the injuries spread didn't show any outlier  , suprisingly Mendocino county has the most injuries((687) followed by Shanta County(611) which also makes sense as Mendocino had the most homes/houses destroyed of all the regions also.
+- 
+- 
 
 ---
 
