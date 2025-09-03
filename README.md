@@ -1,40 +1,60 @@
-# Data-science_Asanda_Ndlela
 
-CUSTOMER EXPERIENCE PROJECT
 
-In this beginner-to-intermediate level project, customer experience data is explored using Power BI and Excel. The aim is to develop dashboards for visualizing and tracking key customer service metrics, such as satisfaction scores, feedback trends, and resolution performance.
+📊 Customer Experience Dashboard Project
 
-TOOLS THAT I USED:
-Power BI Desktop (.pbix) – to build interactive dashboards and visuals.
+This project explores customer experience data using Power BI and Excel to create interactive dashboards and automated reports. The focus is on visualizing and tracking key customer service metrics, including satisfaction scores, feedback trends, and resolution performance.
 
-Excel (.xlsm) – report creating macros and simple automation.
+🚀 Tools Used
 
-FILES IN THE REPOSITORY:
--Customer Experience Report.pbix
--A Power BI dashboard with slicers, and trend visuals to analyze customer feedback over time.
+Power BI Desktop (.pbix) – Interactive dashboards with slicers, drill-downs, and trend visuals.
 
-Customer_Experience_Dashboard1.xlsm
-An Excel workbook that includes some basic reporting and macro features (like auto-refresh, button clicks for filters, etc.).
+Excel (.xlsm) – Automated reports using macros (e.g., auto-refresh and one-click filters).
 
-WHAT THE PROJECT COVERS:
-Visualization of NPS (Net Promoter Score) and CSAT (Customer Satisfaction) trends
+📂 Files in the Repository
 
-Filtering by region, channel, and time period
+Customer Experience Report.pbix – Power BI dashboard with dynamic visuals to analyze customer feedback over time.
 
-Macro buttons in Excel to automate filtering or updating views
+Customer_Experience_Dashboard1.xlsm – Excel workbook with macro features for quick automation and reporting.
 
-Trying out Power BI features like drill-downs, slicers, and tables
+📌 Project Highlights
 
-WHAT I LEAENED :
-How to structure dashboards and highlight key metrics
+Visualization of Net Promoter Score (NPS) and Customer Satisfaction (CSAT) trends.
 
-Basic data modeling in Power BI
+Interactive filtering by region, channel, and time period.
 
-How to clean and prepare data for reporting
+Macro-driven automation in Excel for filtering and refreshing views.
 
- Still a Work in Progress
-I’m still learning both Power BI and Excel, so this project is meant to show my progress and practicE. Any feedback or suggestions are welcome!
+Hands-on practice with Power BI features such as drill-downs, slicers, and summary tables.
 
-To Run This
-Open the .pbix file with Power BI Desktop
+💡 What I Learned
+
+How to design dashboards that highlight key business metrics.
+
+Basic data modeling and cleaning in Power BI.
+
+Preparing raw data for reporting and visualization.
+
+Using Excel macros for simple automation.
+
+📈 Current Status
+
+This is a work in progress project as I continue developing my skills in Power BI and Excel. It reflects my learning journey and growing interest in data visualization and reporting.
+
+▶️ How to Run
+
+Open the .pbix file in Power BI Desktop to explore the interactive dashboard.
+
+Open the .xlsm file in Excel and enable macros to use the automated features.
+
+👨‍💻 About Me
+
+Hi, I’m Asanda Ndlela, a final-year Applied Mathematics and Statistics student at UKZN with a strong passion for data analysis and visualization.
+In this repository, I showcase projects where I clean, transform, and visualize data to extract insights.
+
+📧 Email: asandandlela2004@gmail.com
+
+📱 Phone: +27 74 780 5974 / +27 64 312 3670
+🔗 GitHub: Asandandlela16/Data-science_Asanda_Ndlela
+
+✨ Feedback and suggestions are always welcome as I continue improving my portfolio and skills!
 
