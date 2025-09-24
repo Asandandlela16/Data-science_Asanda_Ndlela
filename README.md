@@ -24,7 +24,7 @@ The dataset contains the following columns:
 - **Products_Purchased** – Number of products purchased by each customer 
 - **Time_Spend_in_Shop** – Engagement level in minutes for each customer
 - **Retention Status** - is the customer still engaging with the business??
-- ** satisfaction score** - it indicates if the customers are satisfied with the business products
+- **satisfaction score** - it indicates if the customers are satisfied with the business products
 
 ---
 
