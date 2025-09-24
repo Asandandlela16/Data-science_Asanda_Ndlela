@@ -36,7 +36,50 @@ SELECT Customer_id , Products_Viewed , Products_Purchased AS Total_purchases , S
 FROM asanda_sql.customer_experience_data
 WHERE 	Products_Purchased>18 AND Products_Viewed >36
 ```
-Insights: There are 10 custumoers who engaged the most and 7 of them gave a satisfaction score of 7+ , while all of them viewed 40+ products and bought 19+products , thus this clearly shows that they are very satisfied with the products and we can clearly label them as our high value customers.
+Insights: There are 10 custumers who engaged the most and 7 of them gave a satisfaction score of 7+ , while all of them viewed 40+ products and bought 19+products , thus this clearly shows that they are very satisfied with the products and we can clearly label them as our high value customers.
+
+### 2. Do customers who spend more time in the shop buy more?
+```sql
+SELECT  ROUND(Time_Spent_on_Site,2) AS Time_spent_on_Site,
+    AVG(Products_Purchased) AS Avg_Purchases
+FROM asanda_sql.customer_experience_data
+GROUP BY Time_Spent_on_Site
+ORDER BY Time_Spent_on_Site DESC;
+```
+Insights : An individual spending 5 minutes and buying maybe 8 products could be buying lights and cheap products like sweets , and an individual who spend more than 50 minutes and buy 1 product could be buying something more costly I would asssume.
+-It seems like the more time the customers spend at the site , the more products they are likely to buy and more money to be spend.
+
+##3. How does time spent on the website relate to products purchased and customer satisfaction?
+```sql
+/*SELECT  ROUND(Time_Spent_on_Site,2) AS Time_spent_on_Site,
+    AVG(Products_Purchased) AS Avg_Purchases
+FROM asanda_sql.customer_experience_data
+WHERE Time_Spent_on_Site>40
+GROUP BY Time_Spent_on_Site
+ORDER BY Time_Spent_on_Site DESC;
+*/
+SELECT
+    CASE 
+        WHEN Time_Spent_on_Site BETWEEN 0 AND 20 THEN '0-20 min'
+        WHEN Time_Spent_on_Site BETWEEN 21 AND 40 THEN '21-40 min'
+        WHEN Time_Spent_on_Site BETWEEN 41 AND 60 THEN '41-60 min'
+        ELSE '60+ min'
+    END AS Time_Range,
+    COUNT(*) AS Num_Users,
+    AVG(Products_Purchased) AS Avg_Purchases,
+    AVG(Feedback_Score) AS Average_feedback
+FROM asanda_sql.customer_experience_data
+GROUP BY 
+    CASE 
+        WHEN Time_Spent_on_Site BETWEEN 0 AND 20 THEN '0-20 min'
+        WHEN Time_Spent_on_Site BETWEEN 21 AND 40 THEN '21-40 min'
+        WHEN Time_Spent_on_Site BETWEEN 41 AND 60 THEN '41-60 min'
+        ELSE '60+ min'
+    END
+ORDER BY Time_Range;
+
+```
+Insights: Most users spent between 21 and 60 minutes on the site , with  average products purchased being 10 which is very bad as reflected by the average feedback score of 2.9. Thus many customers are not satisfied by the products being sold in the shop/site.
 
 
 
