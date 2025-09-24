@@ -46,8 +46,8 @@ FROM asanda_sql.customer_experience_data
 GROUP BY Time_Spent_on_Site
 ORDER BY Time_Spent_on_Site DESC;
 ```
-Insights : An individual spending 5 minutes and buying maybe 8 products could be buying lights and cheap products like sweets , and an individual who spend more than 50 minutes and buy 1 product could be buying something more costly I would asssume.
--It seems like the more time the customers spend at the site , the more products they are likely to buy and more money to be spend.
+Insights : An individual spending 5 minutes and buying maybe 8 products could be buying lights and cheap products like sweets , and an individual who spend more than 50 minutes and buy 1 product could be buying something more costly I would assume.
+It seems like the more time the customers spend at the site , the more products they are likely to buy and more money to be spend.
 
 ##3. How does time spent on the website relate to products purchased and customer satisfaction?
 ```sql
@@ -81,7 +81,8 @@ ORDER BY Time_Range;
 ```
 Insights: Most users spent between 21 and 60 minutes on the site , with  average products purchased being 10 which is very bad as reflected by the average feedback score of 2.9. Thus many customers are not satisfied by the products being sold in the shop/site.
 
-
+##POWER BI DASHBOARD
+So the project includes a Power Bi dashboard for interactive visuals :
 
 
 
