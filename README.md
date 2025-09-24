@@ -5,9 +5,9 @@ This project explores a **customer experience dataset** using **MySQL for data a
 
 The aim is to uncover patterns in **customer behavior, satisfaction, and engagement** to answer key business questions such as:  
 - Who are our most valuable and engaged customers?  
-- How do age, gender, location influence satisfaction of the customers?  
+- Do customers who spend more time in the shop buy more?
 - Do higher engagement levels (time, interactions, product views) lead to more purchases?  
-- Which products and regions perform best — and which need improvement?  
+- How does time spent on the website relate to products purchased and customer satisfaction?
 
 By combining **SQL queries** with an **interactive Power BI dashboard**, this project demonstrates how raw data can be transformed into **actionable insights** and ofcourse the project was very demanding to carry out.  
 
@@ -49,7 +49,7 @@ ORDER BY Time_Spent_on_Site DESC;
 Insights : An individual spending 5 minutes and buying maybe 8 products could be buying lights and cheap products like sweets , and an individual who spend more than 50 minutes and buy 1 product could be buying something more costly I would assume.
 It seems like the more time the customers spend at the site , the more products they are likely to buy and more money to be spend.
 
-##3.How does time spent on the website relate to products purchased and customer satisfaction?
+### 3.How does time spent on the website relate to products purchased and customer satisfaction?
 ```sql
 /*SELECT  ROUND(Time_Spent_on_Site,2) AS Time_spent_on_Site,
     AVG(Products_Purchased) AS Avg_Purchases
