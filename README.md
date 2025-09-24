@@ -1,6 +1,6 @@
 
-🛒 Customer Experience Analysis with MySQL & Power BI
-📌 Project Overview
+**🛒 Customer Experience Analysis with MySQL & Power BI**
+*📌 Project Overview*
 
 This project explores a customer experience dataset using MySQL for data analysis and Power BI for visualization.
 
@@ -16,7 +16,7 @@ Which products and regions perform best — and which need improvement?
 
 By combining SQL queries with an interactive Power BI dashboard, this project demonstrates how raw data can be transformed into actionable insights.
 
-📂 Dataset Description
+**📂 Dataset Description**
 
 The dataset contains the following columns:
 
