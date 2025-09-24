@@ -49,7 +49,7 @@ ORDER BY Time_Spent_on_Site DESC;
 Insights : An individual spending 5 minutes and buying maybe 8 products could be buying lights and cheap products like sweets , and an individual who spend more than 50 minutes and buy 1 product could be buying something more costly I would assume.
 It seems like the more time the customers spend at the site , the more products they are likely to buy and more money to be spend.
 
-##3. How does time spent on the website relate to products purchased and customer satisfaction?
+##3.How does time spent on the website relate to products purchased and customer satisfaction?
 ```sql
 /*SELECT  ROUND(Time_Spent_on_Site,2) AS Time_spent_on_Site,
     AVG(Products_Purchased) AS Avg_Purchases
@@ -81,14 +81,15 @@ ORDER BY Time_Range;
 ```
 Insights: Most users spent between 21 and 60 minutes on the site , with  average products purchased being 10 which is very bad as reflected by the average feedback score of 2.9. Thus many customers are not satisfied by the products being sold in the shop/site(accordig to these age groups alone.
 
-##POWER BI DASHBOARD
+### POWER BI DASHBOARD
+
 So the project includes a Power Bi dashboard for interactive visuals :
  -------
  1.Products purchased by location: Bar chart
  2.Average satisfaction score : Gauge
  3.Products purchased by Gender
 
- ##KEY TAKEAWAYS
+ ### KEY TAKEAWAYS
  1.Total of 10 000+ pruchases , an average rating score of 5.54 across every customer.
  2.70% custumer retention (Power BI) .
  3.Males were the more dominant buyers but that doesn't mean women shouldn't be prioritised.
