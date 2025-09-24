@@ -79,11 +79,21 @@ GROUP BY
 ORDER BY Time_Range;
 
 ```
-Insights: Most users spent between 21 and 60 minutes on the site , with  average products purchased being 10 which is very bad as reflected by the average feedback score of 2.9. Thus many customers are not satisfied by the products being sold in the shop/site.
+Insights: Most users spent between 21 and 60 minutes on the site , with  average products purchased being 10 which is very bad as reflected by the average feedback score of 2.9. Thus many customers are not satisfied by the products being sold in the shop/site(accordig to these age groups alone.
 
 ##POWER BI DASHBOARD
 So the project includes a Power Bi dashboard for interactive visuals :
+ -------
+ 1.Products purchased by location: Bar chart
+ 2.Average satisfaction score : Gauge
+ 3.Products purchased by Gender
 
+ ##KEY TAKEAWAYS
+ 1.Total of 10 000+ pruchases , an average rating score of 5.54 across every customer.
+ 2.70% custumer retention (Power BI) .
+ 3.Males were the more dominant buyers but that doesn't mean women shouldn't be prioritised.
+
+ The project is a work in progress
 
 
 
