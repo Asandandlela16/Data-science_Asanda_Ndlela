@@ -35,7 +35,9 @@ The dataset contains the following columns:
 SELECT Customer_id , Products_Viewed , Products_Purchased AS Total_purchases , Satisfaction_Score
 FROM asanda_sql.customer_experience_data
 WHERE 	Products_Purchased>18 AND Products_Viewed >36
-'''
+```
+Insights: There are 10 custumoers who engaged the most and 7 of them gave a satisfaction score of 7+ , while all of them viewed 40+ products and bought 19+products , thus this clearly shows that they are very satisfied with the products and we can clearly label them as our high value customers.
+
 
 
 
@@ -48,10 +50,5 @@ WHERE 	Products_Purchased>18 AND Products_Viewed >36
 
 
 
-📧 Email: asandandlela2004@gmail.com
 
-📱 Phone: +27 74 780 5974 / +27 64 312 3670
-🔗 GitHub: Asandandlela16/Data-science_Asanda_Ndlela
-
-✨ Feedback and suggestions are always welcome as I continue improving my portfolio and skills!
 
